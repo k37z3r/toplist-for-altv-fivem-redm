@@ -1,7 +1,10 @@
 1. you have to need to use jsmodule
-2. if you don't have, install following modules: `axios`, `dotenv`
-3. open `.env`, read the instructions at top of file and do it.
-4. open your server.cfg and put at the end `secretToken: 'irgfsehiurgs'` (here comes your SID in, to get your SID login at https://gta-spot.com)
-5. now restart your server
-6. login at https://gta-spot.com and edit the entries underneath "Other Data"
-7. now advertise our website to get likes by your players
+2. if you don't have, install following NodeJS-modules: `axios`, `dotenv`
+3. download this package and drag to your resource-folder
+4. open `.env`, read the instructions at top of file and do it.
+5. open your server.cfg
+6. find resources and put into the brackets: `gta-spot-toplist`
+7. put at the end of server.cfg: `secretSID: 'irgfsehiurgs'` (here comes your SID in, to get your SID login at https://gta-spot.com)
+8. save file and restart your server
+9. login at https://gta-spot.com and edit the entries underneath "Other Data"
+10. now advertise our website to get likes by your players
