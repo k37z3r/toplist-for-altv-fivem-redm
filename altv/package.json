@@ -13,7 +13,7 @@
 		"url": "https://github.com/k37z3r/toplist"
 	},
 	"dependencies": {
-		"mysql": ">=2",
+		"axios": ">=2",
 		"dotenv": ">=16"
 	},
 	"author": "Luz Iferato",
