@@ -12,6 +12,7 @@ const neededValues = [
     'secretPID',
     'serverIP',
     'serverPORT',
+    'platform',
 ];
 neededValues.forEach((value) => {
     if (!(value in process.env)) {
@@ -30,7 +31,7 @@ async function doPostRequest() {
         ip: process.env.serverIP,
         port: process.env.serverPORT,
         gamemode: process.env.gamemode,
-        platform: 'fivem',
+        platform: process.env.platform,
         onlineplayers: getPlayers().length,
         maxplayers: GetConvar("sv_maxclients",""),
         secretToken: GetConvar("secretSID",""),
